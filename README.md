@@ -18,7 +18,7 @@ You can also check the version of NodeJS and npm by writing, node -v and npm -v 
 
 There is a tshirtshop.sql file already present in the database/ folder. You have to import this file to an empty database. For this, make a new database first, and navigate to the database/ directory and then write the following commands: Import the schema using mysql -u <user_name> -p <database_name> < tshirtshop.sql For checking the data, log into your user, by writing mysql -u <user_name> -p You would be asked for your password. Now, you can use database with all its tables data.
 
-Next, navigate to the folder where, server.jsfile is located. You can start the local server by writingnode server.json the terminal. You can always kill your running port by writing,killall -9 nodeon the terminal. Now, you need to install postman, that helps you to develop APIs and getting responses from it, by writing the following commands on your terminal.
+Next, navigate to the folder where, app.js file is located. You can start the local server by writingnode server.json the terminal. You can always kill your running port by writing,killall -9 nodeon the terminal. Now, you need to install postman, that helps you to develop APIs and getting responses from it, by writing the following commands on your terminal.
 
    sudo apt-get install snap
    snap install postman
